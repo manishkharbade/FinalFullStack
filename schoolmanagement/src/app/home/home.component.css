@@ -1,0 +1,70 @@
+/********** carousel starts***********/
+.carousel-inner .carousel-item {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-inner .carousel-item::before {
+    content: '';
+    background-color: rgba(12, 11, 10, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.carousel-inner .carousel-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 37%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.carousel-inner .carousel-caption h2 {
+    color: #ff7b21;
+    margin-bottom: 5px;
+    font-size: 47px;
+    width: 80%;
+    margin: 0px auto 30px auto;
+}
+
+.carousel-inner .carousel-caption p {
+    font-size: 20px;
+    width: 80%;
+    margin: 0px auto 20px auto;
+}
+
+/**********  carousel ends  ***********/
+
+/**********  Responsive  ***********/
+
+@media(max-width:768px) {
+    .carousel-inner .carousel-caption h2 {
+        font-size: 38px;
+    }
+}
+
+@media(max-width:577px) {
+
+    .carousel-inner .carousel-caption h2 {
+        font-size: 25px;
+    }
+
+    .carousel-inner .carousel-caption p {
+        font-size: 13px;
+    }
+
+    .maps {
+        width: 100%;
+    }
+}
+
+/**********  Responsive  ***********/

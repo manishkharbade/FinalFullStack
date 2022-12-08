@@ -1,0 +1,9 @@
+@media(max-width:577px) {
+    .maps {
+        width: 100%;
+    }
+}
+
+.maps {
+    width: 100%;
+}

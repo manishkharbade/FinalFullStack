@@ -1,0 +1,55 @@
+<app-services></app-services>
+<router-outlet></router-outlet>
+
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Delete Students Details</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form #deleteform="ngForm" class="container" (ngSubmit)="deletedata(deleteform)">
+                    <div class="form-group">
+                        <label>Id</label>
+                        <input type="number" class="form-control dis" id="sid" #sid (ngModel)="sid" name="sid">
+                    </div>
+                    <pre></pre>
+
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" class="form-control" id="sname" #sname (ngModel)="sname" name="sname">
+                    </div>
+                    <pre></pre>
+
+                    <button type="submit" class="btn btn-primary">Delete</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+<div class="col-md-6 offset-md-3 my-4 justify-content-center container h-auto w-80">
+    <h4 class="d-flex justify-content-center">Delete Students</h4>
+    <form #deleteform="ngForm" class="container" (ngSubmit)="deletedata(deleteform)">
+        <div class="form-group">
+            <label>Id</label>
+            <input type="number" class="form-control dis" id="sid" #sid (ngModel)="sid" name="sid">
+        </div>
+        <pre></pre>
+
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" class="form-control" id="sname" #sname (ngModel)="sname" name="sname">
+        </div>
+        <pre></pre>
+
+        <button type="submit" class="btn btn-primary">Delete</button>
+
+    </form>
+</div>
